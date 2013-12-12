@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Chess</title>
+		<link rel="shortcut icon" href="./Game/Res/castle.png" />
+		<style>
+			body{
+				background-color: #C0C0C0;
+				text-align: center;
+				font-size: 18;
+				font-family: sans-serif;
+			}
+			input{
+				outline: none;
+				width: 200px;
+				background-color: #AAAAAA;
+				border: 0;
+				height: 50px;
+				box-shadow: 2px 2px 1px #777777;
+				padding-left: 10px;
+				font-size: 18;
+			}
+			input:hover{
+				background-color: #999999;
+			}
+			input:focus{
+				background-color: #858585;
+			}
+			div{
+				width: 248px;
+				color: #808080;
+				text-align: left;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<br><br><br><br>
+		Number of players
+		<br><br>
+		<form action="Game/" method="post">
+			<input type="text" name="players" /><br><br>
+			<input type="submit" value="Play"/><br>
+		</form>
+			<br>
+		<div>
+			<b>Differences from chess</b><br>
+			Pressing the center dot passes<br>
+			The number of players<br>
+			There is no check<br>
+			The board shape
+		</div>
+	</body>
+</html>
