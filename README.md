@@ -6,7 +6,6 @@ If you don't have a PHP server it's relatively easy to set the number of players
 1. Renaming "./Game/index.php" to "./Game/index.html"
 2. Changing JavaScript Players variable to what ever number
 
-I made this as a school project and wanted to share it but because I have nothing to host it on I decied to share to the code. Feel free to use it how you like.
+I made this as a school project and wanted to share it but because I have nothing to host it on I decided to share to the code. Feel free to use it how you like.
 
 P.S. 1 player is not very fun.
-
